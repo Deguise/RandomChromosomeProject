@@ -16,6 +16,13 @@ The script was created and used on [BioLinux](http://environmentalomics.org/bio-
 ## How to use it
 
 The code can be launched with a command line.  
+
+Download the project with the command line
+
+```shell
+
+```
+
 First, you must go to the directory containing the file `RandomSequence.pl` and then, apply a `chmod` to change the permissions of the file, to be able to run it after. 
 ```shell
 cd /pathToRandomSequence.pl 
