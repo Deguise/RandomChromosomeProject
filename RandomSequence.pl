@@ -35,8 +35,6 @@ sub HelpMenu {
 # The actual version fix gene, exon, miRNA, transcript, primary_transcript, pseudogene...
  
 # An example of command line: ./RandomSequence.pl GRCh38 3 gene SameFrequencies
- 
-# For any questions: martindeguise\@gmail.com OR luc.audouard\@gmail.com
   
 # ============================================================================== #\n\n\n";
 }
