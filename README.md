@@ -21,13 +21,15 @@ Download the project with the command line
 
 ```shell
 sudo apt install git-all
+cd ~ && mkdir randomChromosomeProject
+cd ./randomChromosomeProject
 git clone https://github.com/Deguise/RandomChromosomeProject.git
 ```
 
 First, you must go to the directory containing the file `RandomSequence.pl` and then, apply a `chmod` to change the permissions of the file, to be able to run it after. 
 ```shell
-cd /pathToRandomSequence.pl 
-chmod 751 *.pl  
+cd ~/randomChromosomeProject 
+chmod 751 RandomSequence.pl  
 ```
 
 Now, you can use `-h` to play the help menu.
