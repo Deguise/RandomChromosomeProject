@@ -1,0 +1,5 @@
+args <- commandArgs(TRUE)
+png(paste("Boxplot_Real_Chromosome.png", as.numeric(args[2]), sep="_"))
+x <- read.csv(as.character(args[1]), header=T, sep=",", row.names=1)
+boxplot(x, main=paste("RealChromosome", as.numeric(args[2]), sep=" "), ylab="Length of genes (in nucleotide)")
+dev.off()
