@@ -87,5 +87,3 @@ The script can randomized the chromosome choosen by two different algorithms: Ju
 * SameFrequencies: Compute the apparition's frequency for the chromosome studied.
   
 The actual code version can lock Y_RNA, transcript, D_loop, primary_transcript, gene, ncRNA, tRNA, exon, sequence_feature, RNase_P_RNA, cDNA_match, CDS, miRNA, vault_RNA, SRP_RNA, RNase_MRP_RNA, snRNA, match, antisense_RNA, snoRNA, mRNA, telomerase_RNA, lnc_RNA and rRNA. 
-
-For any questions: <martindeguise@gmail.com> OR <luc.audouard@gmail.com>
