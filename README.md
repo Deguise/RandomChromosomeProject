@@ -65,7 +65,7 @@ The steps of the code:
 4. Create the mask from the GFF file. The mask allows us to lock regions, such as genes, exons, pseudogene or miRNA, for the randomization
 5.  Randomization (User can choose between two models):
 	- Just randomize: Each nucleotide have the same probability of occurence
-	- Dinucleotide frequencies: Each nucleotide has a local probability of occurence. This probability is computed by taking the pourcentage of each nucleotide between the locked regions
+	- Same frequencies: Each nucleotide has a local probability of occurence. This probability is computed by taking the pourcentage of each nucleotide between the locked regions
 6. Installation of all the tools needed by the pipeline (packages, softwares, updates)
 7. Prediction & comparison of the activities of the real chromosome and the random chromosome
 	- GeneMark-ES: Gene prediction in eukaryote 
