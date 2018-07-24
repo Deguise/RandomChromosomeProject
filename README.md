@@ -20,7 +20,8 @@ The code can be launched with a command line.
 Download the project with the command line
 
 ```shell
-
+sudo apt install git-all
+git clone https://github.com/Deguise/RandomChromosomeProject.git
 ```
 
 First, you must go to the directory containing the file `RandomSequence.pl` and then, apply a `chmod` to change the permissions of the file, to be able to run it after. 
