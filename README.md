@@ -21,6 +21,7 @@ Download the project:
 
 ```shell
 sudo apt install git-all
+cd ~
 git clone https://github.com/Deguise/RandomChromosomeProject.git
 ```
 
