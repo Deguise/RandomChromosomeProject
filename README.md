@@ -8,7 +8,7 @@ To run it locally, you will need to install the latest versions of Wget command,
 ```shell
 sudo apt-get update
 sudo apt-get install wget
-sudo apt-get install gunzip
+sudo apt-get install gzip
 ```
 
 The script was created and used on [BioLinux](http://environmentalomics.org/bio-linux/), [Ubuntu (version 14.04 LTS & 18.04 LTS)](https://www.ubuntu.com/) and [Debian 9.5](https://www.debian.org/). 
