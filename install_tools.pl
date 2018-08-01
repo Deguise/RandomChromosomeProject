@@ -145,7 +145,7 @@ sub orffinder_installation {
 INSTALL_FIMO:
 if (-d "$home/meme") {
 	$verif_FIMO=`find $home/meme/* | wc -l`;
-	if ($verif_FIMO == 684) {
+	if ($verif_FIMO == 685) {
 		$verif_FIMO_doc=`find doc/* | wc -l`;
 		$verif_FIMO_etc=`find etc/* | wc -l`;
 		$verif_FIMO_meme=`find meme-5.0.1/* | wc -l`;
