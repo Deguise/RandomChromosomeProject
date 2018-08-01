@@ -27,7 +27,7 @@ git clone https://github.com/Deguise/RandomChromosomeProject.git
 
 You must go to the directory containing the file `RandomSequence.pl` and then, apply a `chmod` to change the permissions of the file, to be able to run it after. 
 ```shell
-cd ~/randomChromosomeProject 
+cd ~/RandomChromosomeProject 
 chmod 751 RandomSequence.pl  
 ```
 
