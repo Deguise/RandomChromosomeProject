@@ -13,7 +13,7 @@ chomp $home;
 while ($noError != 1){
 
 	if ($error >= 1){
-		print "[INSTALLATION] Data verification running..."
+		print "[INSTALLATION] Data verification running...\n";
 	}
 
 	###################################### PACKAGE #######################################
