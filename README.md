@@ -4,6 +4,7 @@ This is the source code to randomize a human chromosome.
 ## Required
 
 To run it locally, you will need to install the latest versions of Wget command, gunzip, Perl version 5.18 or later, and you will need at least 6GB of stockage. Perl is a high-level programming language that comes installed by default in Ubuntu.
+You can copy/paste the code below: 
 
 ```shell
 sudo apt-get update
@@ -58,20 +59,20 @@ An example of command line:
 
 The steps of the code: 
 
-1. Get the human genenome from the NCBI (User can choose between GRCh37 or GRCh38)
-2. Get the good chromosome from the human genome (User can choose between 1..22)
-3. Get the GFF file linked the choosen human genome (GFF file => Map for the genome)
-4. Create the mask from the GFF file. The mask allows us to lock regions, such as genes, exons, pseudogene or miRNA, for the randomization
-5.  Randomization (User can choose between two models):
+1. The script gets the human genenome from the NCBI (User can choose between GRCh37 or GRCh38)
+2. The script gets the good chromosome from the human genome (User can choose between 1..22)
+3. The script gets the GFF file linked the choosen human genome (GFF file => Map for the genome)
+4. The script creates the mask from the GFF file. The mask allows us to lock regions, such as genes, exons, pseudogene or miRNA, for the randomization
+5.The script randomizes the chromosome (User can choose between two models):
 	- Just randomize: Each nucleotide have the same probability of occurence
 	- Same frequencies: Each nucleotide has a local probability of occurence. This probability is computed by taking the pourcentage of each nucleotide between the locked regions
-6. Installation of all the tools needed by the pipeline (packages, softwares, updates)
-7. Prediction & comparison of the activities of the real chromosome and the random chromosome
+6. The script installs all the tools needed by the pipeline (packages, softwares, updates)
+7. The script proceeds to a prediction & comparison of the activities of the real chromosome and the random chromosome
 	- GeneMark-ES: Gene prediction in eukaryote 
 	- ORFfinder: Prediction of ORFs (We do not use it anymore, GeneMark is faster. But, you can uncomment lines 654 to 671 if you wanted to use ORFfinder).
 	- FIMO: Protein binding sites prediction (Database Hocomoco v11 Full)
-8. Create a CSV file to resume all the data
-9. Plot with R some graphics to compare real vs random chromosome (boxplot and barplot)
+8. The script creates a CSV file to resume all the data
+9. The script creates plots with R some graphics to compare real vs random chromosome (boxplot and barplot)
 
 ## Help
 
