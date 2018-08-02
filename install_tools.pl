@@ -285,17 +285,7 @@ while ($noError != 1){
 
 	sub download_RScript {
 		$localError ++;
-		#system "mkdir tmp_git";
-		#system "cd tmp_git";
-		#system "chmod 777 -R *";
 		print "[RScript] RScript is downloading";
-		#system "git clone https://github.com/Deguise/RandomChromosomeProject/.git";
-		#system "wget https://github.com/Deguise/RandomChromosomeProject/blob/master/boxplotReal.R";
-		#system "chmod 777 -R *";
-		#system "cd RandomChromosomeProject";
-		#system "cp *.R ../../";
-		#system "cd ../../";
-		#	system "rm -R tmp_git";
 	}
 
 	if ($error >= 3){
