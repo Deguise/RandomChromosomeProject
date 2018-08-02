@@ -87,3 +87,13 @@ The script can randomized the chromosome choosen by two different algorithms: Ju
 * SameFrequencies: Compute the apparition's frequency for the chromosome studied.
   
 The actual code version can lock Y_RNA, transcript, D_loop, primary_transcript, gene, ncRNA, tRNA, exon, sequence_feature, RNase_P_RNA, cDNA_match, CDS, miRNA, vault_RNA, SRP_RNA, RNase_MRP_RNA, snRNA, match, antisense_RNA, snoRNA, mRNA, telomerase_RNA, lnc_RNA and rRNA. 
+
+## Issues
+
+3 errors messages appear when the script is lauched:
+```shell
+Useless use of private variable in void context at ./RandomSequence.pl line 503.
+Useless use of private variable in void context at ./RandomSequence.pl line 536.
+Useless use of private variable in void context at ./RandomSequence.pl line 578.
+```
+**Statut:** Not solve
