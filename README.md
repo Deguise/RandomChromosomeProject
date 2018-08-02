@@ -59,7 +59,7 @@ An example of command line:
 
 The steps of the code: 
 
-1. The script gets the human genenome from the NCBI (User can choose between GRCh37 or GRCh38)
+1. The script gets the human genome from the NCBI (User can choose between GRCh37 or GRCh38)
 2. The script gets the good chromosome from the human genome (User can choose between 1..22)
 3. The script gets the GFF file linked the choosen human genome (GFF file => Map for the genome)
 4. The script creates the mask from the GFF file. The mask allows us to lock regions, such as genes, exons, pseudogene or miRNA, for the randomization
@@ -76,7 +76,7 @@ The steps of the code:
 
 ## Help
 
-The user can choose between 2 reference's human genome: GRCh37 or GRCh38.
+The user can choose between 2 humans reference genome: GRCh37 or GRCh38.
 You are able to change it in the option menu.
   
 The user can choose between 22 human chromosomes (excluding X and Y).
