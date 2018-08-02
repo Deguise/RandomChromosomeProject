@@ -22,7 +22,7 @@ sub HelpMenu {
  
 # ============================================================================== #
   
-# The user can choose between 2 reference's human genome: GRCh37 or GRCh38.
+# The user can choose between 2 humans reference genome: GRCh37 or GRCh38.
 # You are able to change it in the option menu. 
   
 # The user can choose between 22 human chromosomes (excluding X and Y).
@@ -55,9 +55,9 @@ if ($#ARGV == -1) # If no arguments are passed
     print "An example of a commande line: ./RandomSequence.pl GRCh37 22 gene SameFrequencies\n";
     print "You can use these parameters:\n";
     print "\tGRCh38 (most recent human genome) or GRCh37\n";
-    print "\t1 to 22 (chromosome number, chromosome 22 for example)\n";
-    print "\tThe region to protect against randomization. \n\tFor example: gene, exon, miRNA, pseudogene... \n";
-    print "\tJustRandomized (a basic model to randomized the chromosome)\n\tOR SameFrequencies (a complexe model near to the real)\n";
+    print "\t1 to 22 (chromosome number, chromosome 22 for example) ";
+    print "The region to protect against randomization. \n\tFor example: gene, exon, miRNA, pseudogene... \n";
+    print "\tJustRandomized (a basic model to randomized the chromosome) OR SameFrequencies (a complexe model near to the real)\n";
     print "\n\nYou also can use -h to have some help. (./RandomSequence.pl -h)\n";
     sleep(5);
     exit(1);
@@ -68,9 +68,9 @@ elsif (scalar(@ARGV) < 4) # if the number of input arguments is lower than 4
     print "An example of a commande line: ./RandomSequence.pl GRCh37 22 gene SameFrequencies\n";
     print "You can use these parameters:\n";
     print "\tGRCh38 (most recent human genome) or GRCh37\n";
-    print "\t1 to 22 (chromosome number, chromosome 22 for example)\n";
-    print "\tThe region to protect against randomization. \n\tFor example: gene, exon, miRNA, pseudogene... \n";
-    print "\tJustRandomized (a basic model to randomized the chromosome)\n\tOR SameFrequencies (a complexe model near to the real)\n";
+    print "\t1 to 22 (chromosome number, chromosome 22 for example) ";
+    print "The region to protect against randomization. \n\tFor example: gene, exon, miRNA, pseudogene... \n";
+    print "\tJustRandomized (a basic model to randomized the chromosome) OR SameFrequencies (a complexe model near to the real)\n";
     print "\n\nYou also can use -h to have some help. (./RandomSequence.pl -h)\n";
     sleep(5);
     exit(1);
