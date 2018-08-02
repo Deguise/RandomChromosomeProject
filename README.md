@@ -96,4 +96,6 @@ Useless use of private variable in void context at ./RandomSequence.pl line 503.
 Useless use of private variable in void context at ./RandomSequence.pl line 536.
 Useless use of private variable in void context at ./RandomSequence.pl line 578.
 ```
+**No impact on code operation**
+
 **Statut:** Not solve
