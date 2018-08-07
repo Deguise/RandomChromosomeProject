@@ -743,4 +743,14 @@ system "Rscript ./boxplotRandom.R resumeRandomChromosome$ARGV[1].csv $ARGV[1]";
 # Create histogram for real & random chromosome
 system "Rscript ./barplot.R $counterGeneMarkReal $counterGeneMarkRandom $ARGV[1]";
 
+my ($TFBS_Random, $TFBS_Real);
+
+$TFBS_Random = `wc -l out_fimo_random_chromosome_$ARGV[1]/fimo.gff | cut -f1 -d' '`;
+$TFBS_Random = $TFBS_Random - 5;
+
+$TFBS_Real = `wc -l out_fimo_real_chromosome_$ARGV[1]/fimo.gff | cut -f1 -d' '`;
+$TFBS_Real = $TFBS_Real - 5;
+
+system "Rscript ./barplotFIMO.R $TFBS_Real $TFBS_Random $ARGV[1]";
+
 print "\nEND\n";
