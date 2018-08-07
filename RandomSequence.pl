@@ -675,10 +675,10 @@ print "\n=======================================================================
 print "\nProtein Binding sites prediction with FIMO\n";
 
 print "\tPrediction of TFBS for real chromosome\n";
-system "$home/meme/bin/fimo --oc ./out_fimo_real_chromosome_$ARGV[1] ./Database/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme $sequenceRealChromosomeFile";
+system "$home/meme/bin/fimo --oc ./out_fimo_real_chromosome_$ARGV[1] ./Database/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme $sequenceRealChromosomeFile";
 
 print "\tPrediction of TFBS for random chromosome\n";
-system "$home/meme/bin/fimo --oc ./out_fimo_random_chromosome_$ARGV[1] ./Database/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme $outfile";
+system "$home/meme/bin/fimo --oc ./out_fimo_random_chromosome_$ARGV[1] ./Database/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme $outfile";
 
 print "\nEND: Protein Binding sites prediction with FIMO\n";
 
