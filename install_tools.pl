@@ -280,6 +280,10 @@ while ($noError != 1){
 		download_RScript();
 		system "wget https://raw.githubusercontent.com/Deguise/RandomChromosomeProject/master/boxplotReal.R";
 	}
+	if (!-e "barplotFIMO.R"){
+		download_RScript();
+		system "wget https://raw.githubusercontent.com/Deguise/RandomChromosomeProject/master/barplotFIMO.R";
+	}
 
 	print "[RScript] Installation done\n";
 
